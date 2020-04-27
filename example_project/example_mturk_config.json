@@ -1,0 +1,17 @@
+{
+	"mturk_config": {
+		"sandbox": true,
+		"reward_per_hit": 0.03,
+		"num_of_hits": 5,
+		"title": "Easy qualification test 2",
+		"description": "Passing this qualification grants you access to work on project X.",
+		"keywords": "qualification, testing keywords",
+		"lifetime_min": "60*24*30",
+		"session_duration_min": "60*3",
+		"auto_approval_min": "60*24*7",
+		"include_qualifications": [],
+		"exclude_qualifications": [],
+		"require_master": false,
+		"require_US": false
+	}
+}
