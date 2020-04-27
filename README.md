@@ -2,7 +2,7 @@
 ```
 git clone git@github.com:qiangning/crowdaq-client.git
 cd crowdaq-client
-pip install -r requirements.txt
+pip install -r requirements.txt # perhaps you want to create a new conda environment here
 ```
 
 # Example usage
