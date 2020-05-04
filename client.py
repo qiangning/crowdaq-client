@@ -48,7 +48,7 @@ class ResourceBase(object):
     def update(self, name, definition):
         logging.debug(f"Updating {self.get_url(name)}")
         resp = requests.post(self.get_url(name),
-                             data=definition,
+                             data=definition.encode('utf-8'),
                              headers=self.client.auth_headers)
         if resp.status_code == 200:
             logging.info(f"Updated {self.get_url(name)}")
