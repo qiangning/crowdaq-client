@@ -1,0 +1,50 @@
+{
+    "tasks": [
+        {
+            "type": "qa-annotation",
+            "layout": [
+                    {
+                        "type": "fixed|user-create",
+                        "prompt": "Ask a question about temporal relation",
+                        "question": "",
+                        "responses": [
+                            {
+                                "type": "free",
+                                "repeated": false
+                            },
+                            {
+                                "type": "from-text",
+                                "repeated": false,
+                                "min": 0,
+                                "max": 2,
+                                "prompt": ""
+                            },
+                            {
+                                "type": "multiple-choice",
+                                "question": {
+                                    "question_text": "How good is this question."
+                                }
+                            },
+                        ]
+                    },
+                    {
+                        "type": "user-create",
+                        "prompt": "Ask a question about temporal relation",
+                        "question": "",
+                        "responses": [
+                            {
+                                "type": "user_input",
+                            },
+                            {
+                                "type": "from-text",
+                            },
+                            {
+                                "type": "multiple-choice",
+                                "option": {}
+                            }
+                        ]
+                    }
+            ]
+        }
+    ]
+}

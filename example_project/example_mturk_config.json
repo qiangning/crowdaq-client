@@ -1,0 +1,18 @@
+{
+	"mturk_config": {
+		"sandbox": true,
+		"reward_per_hit": 0.03,
+		"num_of_hits": 1,
+		"lifetime_min": "60*24*30",
+		"session_duration_min": "60",
+		"auto_approval_min": "60*24*7",
+		"require_master": false,
+		"require_US": false,
+		"other_qualifications":[]
+	},
+	"meta":{
+		"title": "Task [AllenNLP]: Quantity extraction",
+		"description": "You will have a limited number of chances to work on this qualification task. Passing it grants you access to work on our quantity extraction project. Please check the corresponding instructions at https://dev.crowdaq.com/w/instruction/qiang/quantity_extraction_grounding and the tutorial at https://dev.crowdaq.com/w/tutorial/qiang/quantity_extraction. You can find these links inside the task too. Make sure you read them before working on the qualification.",
+		"keywords": "AllenNLP, Qualification, Span labeling"
+	}
+}

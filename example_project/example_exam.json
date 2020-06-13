@@ -1,0 +1,9 @@
+{
+	"max_attempts": 2,
+	"passing_grade": 0.75,
+    "instruction_id": "test_instruction",
+	"tutorial_id": "test_tutorial",
+	"question_set_id": "test_questionset",
+	"num_of_questions": 2,
+	"num_of_assignments": 500
+}

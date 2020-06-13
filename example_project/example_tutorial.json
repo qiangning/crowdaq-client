@@ -1,0 +1,147 @@
+{
+  "instruction_id":"test_instruction",
+  "question_set":[
+    {
+      "type":"multiple-choice",
+      "question_id":"1",
+      "question":{
+        "question_text":"What is the main reason so many people moved to California in 1849?",
+        "options":{
+          "A":"California land was fertile, plentiful, and inexpensive.",
+          "B":"Gold was discovered in central California.",
+          "C":"The east was preparing for a civil war.",
+          "D":"They wanted to establish religious settlements."
+        }
+      },
+      "answer":"A",
+      "explanation":{
+        "A":"Some explanation why A is correct!",
+        "B":"Some explanation why B is not correct.",
+        "C":"Some explanation why C is not correct.",
+        "D":"Some explanation why D is not correct."
+      }
+    },
+    {
+      "type":"multiple-choice",
+      "question_id":"2",
+      "context": [
+        {
+        "type": "text",
+        "label": "Question:",
+        "text": "What is the main reason so many people moved to California in 1849?",
+        "height": 300,
+        "width": 300
+        },
+        {
+        "type": "text",
+        "label": "Answer:",
+        "text": "California land was fertile, plentiful, and inexpensive",
+        "height": 300,
+        "width": 300
+        }
+    ],
+      "question": {
+        "question_text":"What is the main reason so many people moved to California in 1849?",
+        "options":{
+          "A":"California land was fertile, plentiful, and inexpensive.",
+          "B":"Gold was discovered in central California.",
+          "C":"The east was preparing for a civil war.",
+          "D":"They wanted to establish religious settlements."
+        }
+      },
+      "answer":"A",
+      "explanation":{
+        "A":"Some explanation why A is correct!",
+        "B":"Some explanation why B is not correct.",
+        "C":"Some explanation why C is not correct.",
+        "D":"Some explanation why D is not correct."
+      }
+    },
+    {
+      "type":"multiple-choice",
+      "question_id":"3",
+      "context": [
+        {
+          "type": "video",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/4/41/Joy_to_the_World.ogg"
+        }
+      ],
+      "question": {
+        "question_text":"What is the main reason so many people moved to California in 1849?",
+        "options":{
+          "A":"California land was fertile, plentiful, and inexpensive.",
+          "B":"Gold was discovered in central California.",
+          "C":"The east was preparing for a civil war.",
+          "D":"They wanted to establish religious settlements."
+        }
+      },
+      "answer":"A",
+      "explanation":{
+        "A":"Some explanation why A is correct.",
+        "B":"Some explanation why B is not correct.",
+        "C":"Some explanation why C is not correct.",
+        "D":"Some explanation why D is not correct."
+      }
+    },
+    {
+      "type":"multiple-choice",
+      "question_id":"4",
+      "context": [
+        {
+          "type": "image",
+          "src": "https://i.picsum.photos/id/1025/4951/3301.jpg",
+          "height": 300,
+          "width": 300
+        },
+        {
+          "type": "image",
+          "src": "https://i.picsum.photos/id/1025/4951/3301.jpg",
+          "height": 300,
+          "width": 300
+        }
+      ],
+      "question": {
+        "question_text":"What is the main reason so many people moved to California in 1849?",
+        "options":{
+          "A":"California land was fertile, plentiful, and inexpensive.",
+          "B":"Gold was discovered in central California.",
+          "C":"The east was preparing for a civil war.",
+          "D":"They wanted to establish religious settlements."
+        }
+      },
+      "answer":"A",
+      "explanation":{
+        "A":"Some explanation why A is correct.",
+        "B":"Some explanation why B is not correct.",
+        "C":"Some explanation why C is not correct.",
+        "D":"Some explanation why D is not correct."
+      }
+    },
+    {
+      "type":"multiple-choice",
+      "question_id":"5",
+      "context": [
+        {
+          "type": "image",
+          "src": "https://i.picsum.photos/id/1025/4951/3301.jpg"
+        }
+      ],
+      "question": {
+        "question_text":"What is the main reason so many people moved to California in 1849?",
+        "options":{
+          "A":"California land was fertile, plentiful, and inexpensive.",
+          "B":"Gold was discovered in central California.",
+          "C":"The east was preparing for a civil war.",
+          "D":"They wanted to establish religious settlements."
+        }
+      },
+      "answer":"A",
+      "explanation":{
+        "A":"Some explanation why A is correct.",
+        "B":"Some explanation why B is not correct.",
+        "C":"Some explanation why C is not correct.",
+        "D":"Some explanation why D is not correct."
+      }
+    }
+  ]
+}

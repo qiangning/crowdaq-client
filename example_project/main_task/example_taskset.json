@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    {
+      "id": "test_document",
+      "contexts": [
+            {
+              "type": "text",
+              "id": "my_doc",
+              "label": "A product description",
+              "text": "A Wikipedia is a \nfree online encyclopedia, \ncreated and edited by volunteers around the world and hosted by the Wikimedia Foundation."
+            }
+          ],
+          "annotation_groups": [
+            {
+              "id": "ner",
+              "title": "Named entity annotation",
+              "annotations": [
+                {
+                  "type": "span-from-text",
+                  "prompt": "What People are mentioned in the text",
+                  "id": "people",
+                  "from_context": "my_doc",
+                  "repeated": true
+                },
+                {
+                  "type": "span-from-text",
+                  "prompt": "What Locations are mentioned in the text",
+                  "id": "location",
+                  "from_context": "my_doc",
+                  "repeated": true
+                }
+              ]
+            }
+          ]
+    }
+  ]
+}

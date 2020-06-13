@@ -1,0 +1,15 @@
+[
+    {
+        "doc_id": "abc",
+        "text": "Now, on every continent and in every sea, climate disruption is becoming the new normal. Human conduct is also leading to severe biodiversity loss, changing animal-human interaction and distorting ecosystem processes that regulate our planetary health and control many services that humans depend on. Science is screaming to us that we are close to running out of time — approaching a point of no return for human health, which depends on planetary health.",
+    },
+    {
+       "doc_id": "abc",
+       "tokens": [
+           {
+               "text": "Now",
+               "has_space"
+           }
+       ]
+    }
+]
